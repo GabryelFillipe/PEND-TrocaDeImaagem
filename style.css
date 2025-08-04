@@ -4,17 +4,16 @@
     box-sizing: border-box;
 }
 :root{
-    --bg-image: url(./img/tatu.jpeg);
+    --bg-image: url("./img/tatu.jpeg");
 }
 body{
     height: 100dvh;
     display: grid;
     place-content: center;
-    background-repeat: no-repeat;
-    background-size: 50%;
+    background: image-set(var(--bg-image));  
+    background-size: 80%;
     background-position: center;
-    
-    
+    background-repeat: no-repeat;
 }
 .container{
     width: 900px;
@@ -34,5 +33,5 @@ body{
     height: 100px;
 }
 .fundo{
-    background-image: var(--bg-image);
+    /* background-image: var(--bg-image); */
 }
