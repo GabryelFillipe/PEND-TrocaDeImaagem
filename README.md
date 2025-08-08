@@ -7,6 +7,7 @@ Projeto feito com a proposta de desafiar o conhecimento que adquirimos durante a
 ## Tecnologias
 * HTML
 * CSS
+* JavaScript
 * Markdwon
 * Git
 * Github
