@@ -58,6 +58,9 @@ body{
     border-radius: 12px;
     overflow: hidden;
 }
+.animacao-ativa {
+    animation: slider-automatico 27s infinite linear;
+}
 @keyframes slider-automatico {
     0%, 10% { background-image: var(--imagem-1); }
     11%, 21% { background-image: var(--imagem-2); }

@@ -19,16 +19,15 @@ let animacaoOn = false
 
 function modoAutomatico(){
 
-    //inverte o estado da variavel animacaoOn
+    //inverte o estado da variavel animacaoOn para começar desligado
     animacaoOn = !animacaoOn
 
-    if (animacaoOn) {
-        // Se for para rodar, define a propriedade 'animation' diretamente no elemento
-        imagemContainer.style.animation = 'slider-automatico 27s infinite linear';
+    imagemContainer.classList.toggle('animacao-ativa');
+
+   
+        if (imagemContainer.classList.contains('animacao-ativa')) {
         botaoAutomatico.textContent = 'Parar Modo Automático';
-    } else {
-        // Se for para parar, limpa a propriedade 'animation'
-        imagemContainer.style.animation = 'none';
+        } else {
         botaoAutomatico.textContent = 'Iniciar Modo Automático';
     }
 }
