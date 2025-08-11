@@ -11,7 +11,7 @@ body{
     display: grid;
     place-content: center;
     background: image-set(var(--bg-image));  
-    background-size: 80%;
+    background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -31,7 +31,4 @@ body{
 .button button{
     width: 300px;
     height: 100px;
-}
-.fundo{
-    /* background-image: var(--bg-image); */
 }
